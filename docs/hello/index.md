@@ -1,12 +1,7 @@
 ---
 title: "Hello World: The remark Kitchen Sink"
-date: "2016-04-15"
-draft: false
-author: Jay Gatsby
-tags:
-  - remark
-  - Kitchen Sink
-  - Images
+id: "hello"
+permalink: "/docs/hello"
 ---
 
 ![](joshua-earle-234740.jpg) _Photo by
@@ -116,7 +111,6 @@ In this example, leading and trailing spaces are shown with with dots: ⋅
 ⋅⋅⋅⋅1. Ordered sub-list
 4. And another item.
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
 ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
@@ -293,7 +287,6 @@ This line has a footnote [^1]. Scroll down or click the link to see it.
 
 Quote break.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
 
 > Blockquotes are very handy in email to emulate reply text. This line is part
